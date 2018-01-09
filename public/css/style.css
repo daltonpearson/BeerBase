@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+* { margin:0; padding:0;}
+table {
+	
+	/*background-color: white;*/
+	display: inline-block
+	width: 0.5vw;
+	background: linear-gradient(to bottom, white 0.1%, gold 9.9%, gold 90%);
+	border-collapse: collapse;
+	margin:auto;
+	border: 5px solid #fff;
+}
+td {
+	margin:auto;
+	padding:0.1em;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	width: 0.5vw;
+	display: inline-block
+	margin:auto;
+	/*background-color: DarkOrange;*/
+	text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#searcharea{
+	width:80%;
+	margin:auto;
+
+}
+.button {
+	background: transparent;
+	border: 5px solid #000;
+	color: #000;
+	font-size: 30px;
+	border-radius: 40px;
+	padding: 10px 40px;
+	text-decoration: none;
+	margin:2%;
+	display: inline-block
+	width:50%;
+
+}
+select{
+	margin:2%;
+	width:20%;
+	padding: 10px 40px;
+	font-size: 30px;
+	border-radius:5px;
+	border: #FFF;
+	border-style:solid;}
+.button:hover {
+	background: rgba(0,0,0,0.4);
+}
+.search{
+	margin:2%;
+	width:50%;
+	padding: 10px 40px;
+	font-size: 30px;
+	border-radius:5px;
+	border: #FFF;
+	border-style:solid;
+}
+body{
+	
+	display: inline-block
+	/*background: url('../images/beerback.jpg') fixed center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+	margin:auto 0px;
+	width: 100%;
+	
+}
+h1{text-align: center;
+		font-size: 100px;
+		margin: 25px 0px}
+#wrapper{
+		margin:0;
+		width: 100%;
+		height: 100%;
+		overflow: scroll;
+		background-image: url(beerback.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+table{
+	font-size:0.1em;
+	width: 50%;
+	}
+h1{font-size: 3em;}
+td {
+	font-size:0.1em;
+}
+.search{
+	margin:2%;
+	width:10em;
+	padding: 0.5em 1.5em;
+	font-size: 24px;
+	border-radius:5px;
+	border: #FFF;
+	border-style:solid;
+}
+
+.button, .button:active {
+	font-size: 24px;
+	border-radius: 40px;
+	padding: 0.5em 1.5em;
+	margin:2%;
+	display: inline-block
+	width:10em;
+
+}
+select {
+	width:8em;
+	text-align: center;
+}
+option {
+	display:inline-block;
+	text-align: center;
+}
+}
